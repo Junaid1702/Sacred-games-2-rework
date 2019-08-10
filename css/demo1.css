@@ -36,7 +36,7 @@
 	position: absolute;
 	top: 90px;
 	left: 27px;
-	font-family: 'Playfair Display', serif;
+	/* font-family: 'Playfair Display', serif; */
 	animation-delay: calc(var(--delay-anim) + var(--time-anim) * 0.2);
 }
 

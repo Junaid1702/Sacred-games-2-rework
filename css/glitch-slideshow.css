@@ -1,11 +1,27 @@
 /* ----- */
+@font-face{
+	font-family: 'Futura';
+	/* font-style: 'Medium'; */
+	src: url("font/Futura\ Medium.ttf") format("truetype");
+
+}
 body{
 	margin: 0;
 	padding: 0;
-	font-family: "montserrat",sans-serif;
+	/* font-family: "FuturaMedium",sans-serif; */
 	background: #000;
   }
-  
+  /* .container{
+	  width: 100%;
+	  float: left;
+  } */
+  /* .container .wrapper{
+	  width: 1000px;
+	  margin: 0 900px;
+  }
+  .bx-wrapper .container .wrapper{
+	  border: none;
+  } */
   .middle{
 	position: absolute;
 	top: 50%;
@@ -15,9 +31,9 @@ body{
   
   .text{
 	/* font-weight: 400; */
-	font-size: 30px;
+	font-size: 46px;
 	/* margin: 0 0 0.25rem; */
-	font-family: 'Playfair Display', sans-serif;
+	font-family: 'Futura';
 	/* font-weight: 900; */
 	text-transform: none;
 	cursor: default;
@@ -183,8 +199,8 @@ body{
 	position: absolute;
 	top: 0;
 	left: 20vw;
-	width: 60vw;
-	height: 100vh;
+	width: 55vw;
+	height: 30vh;
 	justify-content: center;
 	align-items: center;
 }
@@ -224,7 +240,7 @@ body{
 
 .slide-nav__text {
 	font-size: 15px;
-	margin: 1px 0;
+	margin: 7px 0;
 	font-family: 'Playfair Display', sans-serif;
 	font-weight: 900;
 	text-transform: lowercase;
@@ -245,7 +261,9 @@ body{
 }
 
 .slide-nav__text--current {
-	background-image: linear-gradient(transparent 58%, var(--color-link) 58%, var(--color-link) 64%,transparent 64%);
+	background-color:white;
+	
+	/* background-image: linear-gradient(transparent 58%, var(--color-link) 58%, var(--color-link) 64%,transparent 64%); */
 }
 
 @media screen and (max-width: 65em) {
