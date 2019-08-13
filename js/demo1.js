@@ -91,11 +91,11 @@
             })
         );
     });
-    $('.bxslider').bxSlider({
-        // auto: true,
-        // autoControls: true,
-        // stopAutoOnClick: true,
-        // pager: true,
-        // slideWidth: 100%
-      });
+    // $('.bxslider').bxSlider({
+    //     auto: true,
+    //     autoControls: true,
+    //     stopAutoOnClick: true,
+    //     pager: true,
+    //     slideWidth: 100%
+    //   });
 }
