@@ -84,11 +84,11 @@ a.control_next {
   font-size: 18px;
 } */
 
-/* .carousel-item {
-    -webkit-transition: -webkit-transform 1.2s ease-in-out !important;
-    -o-transition: -o-transform 1.2s ease-in-out !important;
-    transition: transform 1.2s ease-in-out !important;
-} */
+.carousel-item {
+    -webkit-transition: -webkit-transform 3s ease-in-out !important;
+    -o-transition: -o-transform 3s ease-in-out !important;
+    transition: transform 3s ease-in-out !important;
+}
 
 /* .carousel-fade .carousel-inner .item {
 	transition-property: opacity; }
@@ -111,17 +111,24 @@ a.control_next {
      */
 
     .carousel-item .carousel-caption{
-        /* font-weight: 400; */
-        font-size: 46px;
-        /* margin: 0 0 0.25rem; */
+       
+        font-size: 3em;
+       
         font-family: 'Futura';
-        /* font-weight: 900; */
+       
         text-transform: none;
         cursor: default;
-        /* letter-spacing: 14px; */
+       
         position: absolute;
-        top: 90px !important;
-        left: -550px !important;
+        /* top: 90px !important;
+        left: -550px !important; */
+        padding-top: 0px;
+  padding-bottom: 0px;
+  right: 45%;
+  bottom: 0%;
+  top: 15%;
+  left: -10%;
+
       }
 
       .carousel-item .carousel-caption::before, .carousel-item .carousel-caption::after{
@@ -136,12 +143,12 @@ a.control_next {
       
       .carousel-item .carousel-caption::before{
         color: #f51616;
-        animation: glitch-effect 4s infinite;
+        animation: glitch-effect 3s infinite;
       }
       
       .carousel-item .carousel-caption::after{
         color: #3498db;
-        animation: glitch-effect 3s infinite;
+        animation: glitch-effect 2s infinite;
       }
       
       @keyframes glitch-effect {
@@ -204,3 +211,38 @@ a.control_next {
     
     
 } */
+
+/* @media (max-width: 500px) {
+  .carousel-item .carousel-caption {
+    font-size: 15px;
+  }
+} */
+@media (max-width: 575px) {
+  .carousel-item .carousel-caption {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 576px) {
+  .carousel-item .carousel-caption {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 768px) {
+  .carousel-item .carousel-caption {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  .carousel-item .carousel-caption {
+    font-size: 3em;
+  }
+}
+
+@media (min-width: 1200px) {
+  .carousel-item .carousel-caption {
+    font-size: 3em;
+  }
+}
