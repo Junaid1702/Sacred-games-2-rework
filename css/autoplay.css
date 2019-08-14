@@ -143,15 +143,15 @@ a.control_next {
       
       .carousel-item .carousel-caption::before{
         color: #f51616;
-        animation: glitch-effect 3s infinite;
+        -webkit-animation: -webkit-glitch-effect 3s infinite;
       }
       
       .carousel-item .carousel-caption::after{
         color: #3498db;
-        animation: glitch-effect 2s infinite;
+        -webkit-animation: -webkit-glitch-effect 2s infinite;
       }
       
-      @keyframes glitch-effect {
+      @keyframes -webkit-glitch-effect {
         0%{
           left: -3px;
           top: -3px;
@@ -219,30 +219,30 @@ a.control_next {
 } */
 @media (max-width: 575px) {
   .carousel-item .carousel-caption {
-    font-size: 20px;
+    font-size: 13px;
   }
 }
 
 @media (min-width: 576px) {
   .carousel-item .carousel-caption {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 
 @media (min-width: 768px) {
   .carousel-item .carousel-caption {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 
 @media (min-width: 992px) {
   .carousel-item .carousel-caption {
-    font-size: 3em;
+    font-size: 2em;
   }
 }
 
 @media (min-width: 1200px) {
   .carousel-item .carousel-caption {
-    font-size: 3em;
+    font-size: 2em;
   }
 }
